@@ -66,18 +66,18 @@ header {
 }
 
 /* About Section */
-#about {
+{
     padding: 40px 20px;
     background-color: #ecf0f1;
     text-align: center;
 }
 
-#about .text {
+.text {
     font-size: 28px;
     font-weight: bold;
 }
 
-#about .typing {
+.typing {
     font-size: 18px;
     max-width: 800px;
     margin: 0 auto;
