@@ -1,82 +1,106 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajeev Singh - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
-<body>
-
-    <!-- Profile Image in Corner -->
-    <div class="profile-img-container">
-        <img src="images/Profilepic_resize.jpg" alt="Rajeev Singh" class="profile-pic">
-    </div>
-
-    <!-- Main Container -->
-    <header>
-        <div class="content-container">
-            <h1 class="floating-text">Rajeev Singh</h1>
-            <p class="typing">Senior Project Engineer | SCCM & Wintel Expert</p>
-            <div class="links">
-                <a href="https://www.linkedin.com/in/rajeev-singh-8a3542243" target="_blank" class="floating-text">LinkedIn</a>
-                <a href="Rajeev_Singh_CV.pdf" target="_blank" class="floating-text">Download Resume</a>
-                <a href="mailto:rsbrajeevsingh98@gmail.com" class="floating-text">Email Me</a>
+<body class="bg-gray-100 p-6">
+    <div class="max-w-4xl mx-auto bg-white p-8 shadow-lg">
+        <div class="flex items-center">
+            <img src="https://placehold.co/100x100" alt="Profile picture of Rajeev Singh" class="w-24 h-24 rounded-full mr-6">
+            <div>
+                <h1 class="text-3xl font-bold">RAJEEV SINGH</h1>
+                <p class="text-xl text-gray-600">Senior Project Engineer</p>
+                <div class="mt-2">
+                    <p class="text-gray-600"><i class="fas fa-phone-alt"></i> 0783499963</p>
+                    <p class="text-gray-600"><i class="fas fa-envelope"></i> rajeevsingh88@gmail.com</p>
+                    <p class="text-gray-600"><i class="fab fa-linkedin"></i> linkedin.com/in/rajeev-singh-8a3542243</p>
+                </div>
             </div>
         </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about">
-        <h2 class="floating-text">About Me</h2>
-        <p>I'm Rajeev Singh, a Senior Project Engineer specializing in SCCM, Wintel systems, and VMware. I'm passionate about automation, system optimization, and delivering top-notch IT solutions.</p>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2 class="floating-text">Skills</h2>
-        <ul>
-            <li>SCCM Administration</li>
-            <li>Windows Patch Management</li>
-            <li>VMware</li>
-            <li>Wintel Server Management</li>
-            <li>PowerShell Scripting</li>
-            <li>Linux Basics</li>
-            <li>Application Support</li>
-        </ul>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience">
-        <h2 class="floating-text">Experience</h2>
-        <p>Currently working as a Senior Project Engineer where I handle SCCM & Wintel environments, server administration, and VMware operations in production environments.</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2 class="floating-text">Projects</h2>
-        <ul>
-            <li>Automated Windows Update compliance with PowerShell scripting.</li>
-            <li>Jump Server configuration for OCI infrastructure with DNS resolution.</li>
-            <li>Intel EMA Integration for secure remote management.</li>
-        </ul>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2 class="floating-text">Contact Me</h2>
-        <form id="contactForm">
-            <input type="text" placeholder="Your Name" required><br>
-            <input type="email" placeholder="Your Email" required><br>
-            <textarea placeholder="Your Message" required></textarea><br>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Rajeev Singh. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+            <div>
+                <h2 class="text-xl font-bold mb-4">EDUCATION</h2>
+                <p class="text-gray-800">
+                    <strong>M.Tech in Computing Systems & Infrastructure</strong><br>
+                    BITS Pilani WILP<br>
+                    2020 – 2022
+                </p>
+                <p class="text-gray-800 mt-4">
+                    <strong>B.Sc (H) Instrumentation</strong><br>
+                    University of Delhi<br>
+                    2017 – 2020
+                </p>
+                <h2 class="text-xl font-bold mt-8 mb-4">EXPERTISE</h2>
+                <ul class="list-disc list-inside text-gray-800">
+                    <li>SCCM / MECM</li>
+                    <li>SCCM</li>
+                    <li>PowerShell</li>
+                    <li>WinTel Patching</li>
+                    <li>Software Deployment</li>
+                    <li>Centero</li>
+                    <li>VMware Center</li>
+                    <li>WinTel Admin</li>
+                    <li>Microsoft Excel</li>
+                </ul>
+                <h2 class="text-xl font-bold mt-8 mb-4">CERTIFICATES</h2>
+                <ul class="list-disc list-inside text-gray-800">
+                    <li>AWS Certified Cloud Practitioner</li>
+                    <li>Azure Admin L1</li>
+                    <li>Cloud Oracle Infrastructure Admin L1</li>
+                    <li>Google Gen AI</li>
+                </ul>
+                <h2 class="text-xl font-bold mt-8 mb-4">ACHIEVEMENTS</h2>
+                <ul class="list-disc list-inside text-gray-800">
+                    <li>Inspiring Performance 2023</li>
+                    <li>Inspiring Performance 2022</li>
+                </ul>
+            </div>
+            <div class="col-span-2">
+                <h2 class="text-xl font-bold mb-4">PROFILE</h2>
+                <p class="text-gray-800 mb-8">
+                    "Dedicated and detailed-oriented professional with expertise in SCCM and WinTel patch management. Committed professional with a strong work ethic, known for ensuring quality and reliability in all tasks. I bring a proactive approach to my work, consistently focused on delivering results and maintaining high standards in any environment."
+                </p>
+                <h2 class="text-xl font-bold mb-4">WORK EXPERIENCE</h2>
+                <div class="mb-8">
+                    <h3 class="text-lg font-bold">Wipro Technologies | S&P GLOBAL</h3>
+                    <p class="text-gray-600">SYSTEM ADMINISTRATOR</p>
+                    <p class="text-gray-600">2022 – Present</p>
+                    <ul class="list-disc list-inside text-gray-800 mt-2">
+                        <li>Working as a System Administrator, supported IRS MARk LTI financial information and analytical platform that merged in 2021 with S&P Global.</li>
+                        <li>Headquartered in New York, USA.</li>
+                        <li>Key Responsibilities:
+                            <ul class="list-disc list-inside ml-4">
+                                <li>Supporting Windows 10, AD, SCCM related issues.</li>
+                                <li>Application Packaging.</li>
+                                <li>Managing Active Directory servers, policies, and permissions for clients & users.</li>
+                                <li>Software Distribution, LTI, MARk, and other applications through Centero.</li>
+                                <li>Ensuring patches are mitigated through SCCM.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold">Wipro Technologies | STATESTREET</h3>
+                    <p class="text-gray-600">SYSTEM ADMINISTRATOR</p>
+                    <p class="text-gray-600">2020 – 2022</p>
+                    <ul class="list-disc list-inside text-gray-800 mt-2">
+                        <li>Working as a System Administrator for State Street Corporation, an American financial services and bank holding company headquartered in Boston, USA.</li>
+                        <li>Key Responsibilities:
+                            <ul class="list-disc list-inside ml-4">
+                                <li>Supporting Windows 10, AD, SCCM related issues.</li>
+                                <li>Application Packaging.</li>
+                                <li>Managing Active Directory servers, policies, and permissions for clients & users.</li>
+                                <li>Software Distribution, LTI, MARk, and other applications through Centero.</li>
+                                <li>Ensuring patches are mitigated through SCCM.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
