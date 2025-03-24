@@ -77,11 +77,11 @@ form button:hover {
     background-color: #3498db;
 }
 .profile-pic {
-    width: auto;        /* Reduced size */
-    height: auto;
+    width: 150px;        /* Reduced size */
+    height: 150px;
     border-radius: 50%;  /* Circle shape */
-    margin: 1px auto;   /* Centered */
-    display: block;      /* Block element to center */
     object-fit: cover;   /* Keeps aspect ratio, crops if needed */
+    display: block;      /* Block element to center */
+    margin: 20px auto;   /* Centered */
     border: 3px solid #f1c40f;  /* Gold border */
 }
