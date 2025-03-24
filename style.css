@@ -77,8 +77,8 @@ form button:hover {
     background-color: #3498db;
 }
 .profile-pic {
-    width: 1px;        /* Reduced size */
-    height: 1px;
+    width: auto;        /* Reduced size */
+    height: auto;
     border-radius: 50%;  /* Circle shape */
     margin: 1px auto;   /* Centered */
     display: block;      /* Block element to center */
