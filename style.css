@@ -76,12 +76,12 @@ form button {
 form button:hover {
     background-color: #3498db;
 }
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    object-fit: cover;
-    border: 3px solid #f1c40f;
+profile-pic {
+    width: 120px;        /* Reduced size */
+    height: 120px;
+    border-radius: 50%;  /* Circle shape */
+    margin: 10px auto;   /* Centered */
+    display: block;      /* Block element to center */
+    object-fit: cover;   /* Keeps aspect ratio, crops if needed */
+    border: 3px solid #f1c40f;  /* Gold border */
 }
