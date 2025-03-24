@@ -8,36 +8,33 @@
 </head>
 <body>
 
-   <header>
-    <div class="container">
-        <img src="Rajeev.jpg" alt="Rajeev Singh" class="profile-pic">
-        <h1>Rajeev Singh</h1>
-        <p>Senior Project Engineer | SCCM & Wintel Expert</p>
-        <div class="links">
-            <a href="https://www.linkedin.com/in/rajeev-singh-8a3542243" target="_blank">LinkedIn</a> |
-            <a href="Rajeev_resume" target="_blank">Download Resume</a> |
-            <a href="mailto:rsbrajeevsingh98@gmail.com">Email Me</a>
-        </div>
+    <!-- Profile Image in Corner -->
+    <div class="profile-img-container">
+        <img src="Profilepic.jpg" alt="Rajeev Singh" class="profile-img">
     </div>
-</header>
 
-    <nav>
-        <ul class="container">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- Main Container -->
+    <header>
+        <div class="content-container">
+            <h1 class="floating-text">Rajeev Singh</h1>
+            <p class="floating-text">Senior Project Engineer | SCCM & Wintel Expert</p>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/rajeev-singh-8a3542243" target="_blank" class="floating-text">LinkedIn</a>
+                <a href="Rajeev_Singh_CV.pdf" target="_blank" class="floating-text">Download Resume</a>
+                <a href="mailto:rsbrajeevsingh98@gmail.com" class="floating-text">Email Me</a>
+            </div>
+        </div>
+    </header>
 
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <p>I am Rajeev Singh, a Senior Project Engineer with expertise in SCCM, Windows Patch Management, VMware, and Wintel systems. Passionate about automation, system optimization, and delivering robust IT solutions.</p>
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="floating-text">About Me</h2>
+        <p>I'm Rajeev Singh, a Senior Project Engineer specializing in SCCM, Wintel systems, and VMware. I'm passionate about automation, system optimization, and delivering top-notch IT solutions.</p>
     </section>
 
-    <section id="skills" class="container">
-        <h2>Skills</h2>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="floating-text">Skills</h2>
         <ul>
             <li>SCCM Administration</li>
             <li>Windows Patch Management</li>
@@ -49,23 +46,25 @@
         </ul>
     </section>
 
-    <section id="experience" class="container">
-        <h2>Experience</h2>
-        <h3>Senior Project Engineer - Current Role</h3>
-        <p>Managing SCCM & Wintel environments, Windows patching, server administration, VMware operations, and providing critical support in production environments.</p>
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2 class="floating-text">Experience</h2>
+        <p>Currently working as a Senior Project Engineer where I handle SCCM & Wintel environments, server administration, and VMware operations in production environments.</p>
     </section>
 
-    <section id="projects" class="container">
-        <h2>Projects</h2>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="floating-text">Projects</h2>
         <ul>
-            <li><strong>Shell Scripting Automation Toolkit:</strong> Automated Windows Update compliance using PowerShell.</li>
-            <li><strong>Jump Server Configuration:</strong> Implemented and configured jump servers for OCI infrastructure with DNS resolution.</li>
-            <li><strong>Intel EMA Integration:</strong> Managed and configured Intel Endpoint Management Assistant for secure remote management.</li>
+            <li>Automated Windows Update compliance with PowerShell scripting.</li>
+            <li>Jump Server configuration for OCI infrastructure with DNS resolution.</li>
+            <li>Intel EMA Integration for secure remote management.</li>
         </ul>
     </section>
 
-    <section id="contact" class="container">
-        <h2>Contact Me</h2>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="floating-text">Contact Me</h2>
         <form id="contactForm">
             <input type="text" placeholder="Your Name" required><br>
             <input type="email" placeholder="Your Email" required><br>
@@ -75,9 +74,7 @@
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Rajeev Singh. All rights reserved.</p>
-        </div>
+        <p>&copy; 2025 Rajeev Singh. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
